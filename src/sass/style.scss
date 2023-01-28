@@ -1,0 +1,13 @@
+
+*{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@import 'blocks/menu';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/promo_block';
+@import 'blocks/foto';
+

@@ -1,0 +1,33 @@
+.menu{
+    display: flex;
+    &_list{
+        display: flex;
+        margin-right: 140px;
+        max-width: 700px;
+        max-height: 50px;
+        margin-top: 34px;
+        
+        a{
+            max-width: 155px;
+            height: 20px;
+            margin-right: 20px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover{
+                max-width: 155px;
+                height: 50px;
+                background: #FFFFFF;
+                border-radius: 12px;
+                transition: 0.5s linear; 
+                color: #181818; 
+                padding: 10px 10px 10px 10px;       
+            }              
+        }      
+    }
+       
+}

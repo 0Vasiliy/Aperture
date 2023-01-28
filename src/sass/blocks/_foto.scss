@@ -1,0 +1,58 @@
+.what{
+    display: grid;
+    position: relative;
+    top: -9px;
+    height: 1558px;;
+    background: #000000;
+    border-radius: 0px;   
+}
+.foto{
+    position: relative;   
+    top: 120px;
+    display: flex;   
+    justify-content: center;
+    &_block{
+        max-width: 1200px;
+        max-height: 1338px;
+    }
+    &_title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 30px;
+        text-align: center;
+        color: #C0C0C0;
+    }
+    &_subtitle{
+        margin-top: 15px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &_descr{
+        max-width: 600px;
+        max-height: 85px;
+    }
+    &_item{
+        // border: 1px solid white;
+    }
+}
+.foto_about{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 576px 576px;//minmax(576px, auto) minmax(576px, auto);
+    column-gap: 16px;
+    row-gap: 16px;
+    max-height: 1216px;
+    margin-top: 40px;
+    margin-left: 136px;
+    margin-right: 136px;
+    border: 1px solid white;
+    
+       
+}
