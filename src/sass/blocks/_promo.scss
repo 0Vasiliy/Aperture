@@ -1,28 +1,30 @@
+.promo_wrapper{
+    padding: 0;
+}
 .promo{
-    display: flex;
-    max-height: 800px;        
-    &_img{
-       position: relative;
-       display: flex;
-       min-width: 100%;
-       height: 100%;
-              
-        }
-    &_descr{      
-        position: absolute;
+    display: block;
+    height: auto;
+    width: 100%;  
+    overflow: hidden;
+    object-fit: cover;
+    &_img{     
+       max-width: 100%;
+       height: auto;     
+     }
+    &_descr{  
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;  
         align-items: center;     
         max-width: 600px;
-        max-height: 280px;
-        left: 29.17%;
-        right: 29.17%;       
-        margin-top: -180px;
+        max-height: 209px;    
+        margin-top: -17.25em;
+        margin-bottom: 8.5em;
     }
     &_subtitle{
         display: flex;
-        min-width: 263px;
-        left: calc(50% - 263px/2 + 0.5px);           
+        min-width: 16.438em;         
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -34,9 +36,10 @@
         color: #C0C0C0;
     }
     &_title{
+        display: flex;
+        justify-content: center;
         margin-top: 18px;
-        min-width: 463px;
-        left: calc(50% - 463px/2 + 0.5px);       
+        min-width: 463px;    
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -46,27 +49,18 @@
         color: #FFFFFF;
         }
     &_text{
-        margin-top: 18px;
-        min-width: 580px;
-        left: calc(50% - 580px/2);        
+        display: flex;       
+        margin-top: 1.125em;          
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-        text-align: center;
         color: #C0C0C0;
 
     }
     &_panel{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: absolute;
-        margin-top: -50px;
-        margin-right: 39px;
-        max-width: 300px;        
-        margin-left: 1050px;
+        @include panel;
     }
            
 }

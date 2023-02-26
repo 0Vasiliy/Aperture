@@ -1,8 +1,9 @@
-.header{
+.header{ 
     height: 90px;
     left: 0%;
     right: 0%;
     top: 0px;
+    max-width: 100%;
     background: #181818;
     border-radius: 0px;
     &_wrapper{
@@ -10,7 +11,7 @@
         margin: 0 auto;       
     }
     &_logo{
-        margin-left: 152px;
+        margin-left: 12%;
         margin-top: 30px;   
         max-width: 130px;
         height: 30px;

@@ -1,13 +1,36 @@
+@import 'base/mixins';
 
 *{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0;
 }
+html {
+    box-sizing: content-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
 
 @import 'blocks/menu';
 @import 'blocks/header';
 @import 'blocks/promo';
-@import 'blocks/promo_block';
+@import 'blocks/panel';
 @import 'blocks/foto';
+@import 'blocks/frame';
+@import 'blocks/tools';
+
+@import 'blocks/media';
+
+
+
 

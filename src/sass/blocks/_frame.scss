@@ -1,0 +1,53 @@
+.frame{
+    padding: 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+.frame_block{
+    display: block;
+    padding: 0;
+    height: auto;
+    width: 100%;  
+    &_img{
+        max-width: 100%;
+        height: auto;
+    }
+    &_title{
+        display: flex;
+        height: 20px;   
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;      
+        letter-spacing: 2px;
+        text-transform: uppercase;   
+        color: #FFFFFF;       
+    }
+    &_text{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        height: 60px;
+        color: #C0C0C0;
+    }
+}
+
+.frame_block_subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;  
+    align-items: center;  
+    max-width: 310px;
+    max-height: 80px;
+    margin-top: -30%;
+    margin-left: 70%    
+}
+
+.frame_panel{ 
+    @include panel;
+    margin-top: 18%;
+}
