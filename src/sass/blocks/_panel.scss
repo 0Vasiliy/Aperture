@@ -1,56 +1,88 @@
-
+// item_country_block
 .promo_item_country_block{
     @include item_country_block;
 } 
 .frame_item_country_block{
     @include item_country_block;
 }
+.tools_item_country_block{
+    @include item_country_block;
+}
 
+// item_country
 .promo_item_country{
     @include item_country;
 }
 .frame_item_country{
     @include item_country;
  }
+.tools_item_country{
+    @include item_country;
+ }
 
- .promo_item_iso_block{
+ // item_iso_block
+.promo_item_iso_block{
     @include item_iso_block;
  }
 .frame_item_iso_block{
     @include item_iso_block;
   }
+.tools_item_iso_block{
+    @include item_iso_block;
+}
 
+// item_iso
 .promo_item_iso{
     @include item_iso;
 }
 .frame_item_iso{
     @include item_iso;
 }
+.tools_item_iso{
+    @include item_iso;
+}
 
+
+// item_farengate_block
 .promo_item_farengate_block{
     @include item_farengate_block;
 }
 .frame_item_farengate_block{
     @include item_farengate_block;
 }
+.tools_item_farengate_block{
+    @include item_farengate_block;
+}
 
+// item_farengate
 .promo_item_farengate{
     @include item_farengate;
 } 
 .frame_item_farengate{
     @include item_farengate;
 }
+.tools_item_farengate{
+    @include item_farengate;
+}
 
+// item_time_block
 .promo_item_time_block{
     @include item_time_block;
 }
 .frame_item_time_block{
     @include item_time_block;
 }
+.tools_item_time_block{
+    @include item_time_block;
+}
 
+// item_time
 .promo_item_time{
     @include item_time;
 }
 .frame_item_time{
+    @include item_time;
+}
+.tools_item_time{
     @include item_time;
 }

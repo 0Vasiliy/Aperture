@@ -22,7 +22,14 @@
     .frame_panel{
         margin-top: 15%;
     }
-    
+    .tools_wrapper_block_title{
+        font-size: 18px;
+        margin-left: 15%;
+    }   
+    .tools_wrapper_block_text{
+        font-size: 12px;
+        line-height: 16px;
+    } 
 }
 @media (max-width: 992px){
     .promo_descr{
@@ -43,12 +50,19 @@
     .frame_panel{
         @include panel_992px;  
     }
+    .tools_foto_panel{
+       margin-left: 3%;
+    }
     .foto_item_btn{
         width: 80%;
         margin-top: -65%; 
     }
     .frame_block_subtitle{
         margin-left: auto;
+    }
+    .tools_wrapper_block_btn{
+        width: 80%;
+        margin-top: 5%;
     }
 }
 
@@ -61,10 +75,27 @@
         margin-right: auto;
     }
     .foto_item_btn{
-        margin-top: -45%; 
+        margin-top: -60%; 
     }
     .frame_panel{
         margin-top: 10%;
+    }
+    .tools_foto_panel{
+        margin-left: 0;
+     }
+    .tools_wrapper_block{
+        max-width: 400px;
+        max-height: 200px;
+    }
+    .tools_wrapper_block_title{
+        margin-left: 10%;
+        font-size: 14px;
+        margin-top: 5%;
+    }   
+    .tools_wrapper_block_text{
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 5%;
     }
 }
 
@@ -78,4 +109,10 @@
     .frame_panel{
         margin-top: 5%;
     }
+    .foto_item_btn{
+        max-width: 80px;
+        height: 28px;
+        font-size: 8px;
+    }
+    
 }

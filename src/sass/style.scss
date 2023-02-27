@@ -8,9 +8,7 @@
 html {
     box-sizing: content-box;
 }
-*,*::before, *::after{
-    box-sizing: inherit;
-}
+
 body{
     margin: 0;
     -webkit-font-smoothing:antialiased;
