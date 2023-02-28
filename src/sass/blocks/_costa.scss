@@ -1,26 +1,26 @@
-.frame{
+.costa{
     padding: 0;
     overflow: hidden;
     object-fit: cover;
 }
-.frame_block{
+.costa_block{
     @include block;
     &_img{
-        @include block_img;
+       @include block_img;
     }
     &_title{
-        @include block_title;      
+        @include block_title;  
     }
     &_text{
-        @include block_text;
+       @include block_text;
     }
 }
 
-.frame_block_subtitle{
-    @include block_subtitle;  
+.costa_block_subtitle{
+   @include block_subtitle;
 }
 
-.frame_panel{ 
+.costa_panel{ 
     @include panel;
     margin-top: 18%;
 }

@@ -1,0 +1,30 @@
+.client{
+    height: auto;
+    background: #000000;
+    border-radius: 0px;
+    &_block{
+        margin-top: 15%;
+        margin-bottom: 10%;
+        max-width: 1200px;
+        max-height: 280px;
+        &_title{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 42px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_logo{
+            display: flex;
+            margin-top: 5%;
+            img{
+            max-width: 128px;
+            max-height: 36px;
+            }
+        }
+    }
+   
+    
+}

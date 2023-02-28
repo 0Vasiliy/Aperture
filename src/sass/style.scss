@@ -1,4 +1,6 @@
 @import 'base/mixins';
+@import 'base/mixins_section';
+
 
 *{
     max-width: 1440px;
@@ -26,6 +28,10 @@ body{
 @import 'blocks/foto';
 @import 'blocks/frame';
 @import 'blocks/tools';
+@import 'blocks/costa';
+@import 'blocks/client';
+@import 'blocks/nepal';
+@import 'blocks/pageup';
 
 @import 'blocks/media';
 

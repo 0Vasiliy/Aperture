@@ -50,6 +50,14 @@
     .frame_panel{
         @include panel_992px;  
     }
+    .costa_panel{
+        @include panel_992px; 
+        margin-top: 10%;
+    }
+    .nepal_panel{
+        @include panel_992px;  
+        margin-top: 10%;
+    }
     .tools_foto_panel{
        margin-left: 3%;
     }
@@ -59,10 +67,17 @@
     }
     .frame_block_subtitle{
         margin-left: auto;
+        margin-top: 3%;
+    }
+    .costa_block_subtitle{
+        margin-left: auto;
     }
     .tools_wrapper_block_btn{
         width: 80%;
         margin-top: 5%;
+    }
+    .nepal_block_subtitle{
+        margin-left: auto;
     }
 }
 
@@ -97,6 +112,31 @@
         line-height: 10px;
         margin-top: 5%;
     }
+    .costa_block_title{
+        font-size: 12px;
+    }
+    .costa_block_text{
+        font-size: 10px;
+    }
+    .tools_foto_img{
+        height: 100%;
+        width: 100%;
+    }
+    .client_block_logo{
+        img{
+            max-width: 90px;
+            max-height: 25px;
+        }
+    }
+    .client_block_title{
+        font-size: 24px;
+    }
+    .nepal_block_title{
+        font-size: 12px;
+    }
+    .nepal_block_text{
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 576px){
@@ -113,6 +153,16 @@
         max-width: 80px;
         height: 28px;
         font-size: 8px;
+    }
+    .tools_foto_img{
+        height: 100%;
+        width: 100%;
+    }
+    .client_block_logo{
+        img{
+            max-width: 65px;
+            max-height: 20px;
+        }
     }
     
 }

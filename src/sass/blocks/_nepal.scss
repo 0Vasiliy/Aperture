@@ -1,26 +1,26 @@
-.frame{
+.nepal{
     padding: 0;
     overflow: hidden;
     object-fit: cover;
 }
-.frame_block{
+.nepal_block{
     @include block;
     &_img{
-        @include block_img;
+       @include block_img;
     }
     &_title{
-        @include block_title;      
+        @include block_title;  
     }
     &_text{
-        @include block_text;
+       @include block_text;
     }
 }
 
-.frame_block_subtitle{
-    @include block_subtitle;  
+.nepal_block_subtitle{
+   @include block_subtitle;
 }
 
-.frame_panel{ 
+.nepal_panel{ 
     @include panel;
     margin-top: 18%;
 }

@@ -8,6 +8,13 @@
 .tools_item_country_block{
     @include item_country_block;
 }
+.costa_item_country_block{
+    @include item_country_block;
+    max-width: 90px; 
+}
+.nepal_item_country_block{
+    @include item_country_block;
+}
 
 // item_country
 .promo_item_country{
@@ -17,6 +24,12 @@
     @include item_country;
  }
 .tools_item_country{
+    @include item_country;
+ }
+ .costa_item_country{
+    @include item_country;
+ }
+ .nepal_item_country{
     @include item_country;
  }
 
@@ -30,6 +43,12 @@
 .tools_item_iso_block{
     @include item_iso_block;
 }
+.costa_item_iso_block{
+    @include item_iso_block;
+}
+.nepal_item_iso_block{
+    @include item_iso_block;
+}
 
 // item_iso
 .promo_item_iso{
@@ -39,6 +58,12 @@
     @include item_iso;
 }
 .tools_item_iso{
+    @include item_iso;
+}
+.costa_item_iso{
+    @include item_iso;
+}
+.nepal_item_iso{
     @include item_iso;
 }
 
@@ -53,6 +78,12 @@
 .tools_item_farengate_block{
     @include item_farengate_block;
 }
+.costa_item_farengate_block{
+    @include item_farengate_block;
+}
+.nepal_item_farengate_block{
+    @include item_farengate_block;
+}
 
 // item_farengate
 .promo_item_farengate{
@@ -62,6 +93,12 @@
     @include item_farengate;
 }
 .tools_item_farengate{
+    @include item_farengate;
+}
+.costa_item_farengate{
+    @include item_farengate;
+}
+.nepal_item_farengate{
     @include item_farengate;
 }
 
@@ -75,6 +112,12 @@
 .tools_item_time_block{
     @include item_time_block;
 }
+.costa_item_time_block{
+    @include item_time_block;
+}
+.nepal_item_time_block{
+    @include item_time_block;
+}
 
 // item_time
 .promo_item_time{
@@ -84,5 +127,11 @@
     @include item_time;
 }
 .tools_item_time{
+    @include item_time;
+}
+.costa_item_time{
+    @include item_time;
+}
+.nepal_item_time{
     @include item_time;
 }
