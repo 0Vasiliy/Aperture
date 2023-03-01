@@ -3,9 +3,8 @@
 
 
 *{
-    max-width: 1440px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0;   
 }
 html {
     box-sizing: content-box;
@@ -19,6 +18,7 @@ body{
 .container{
     margin: 0 auto;
     max-width: 1440px;
+    width: 100%;
 }
 
 @import 'blocks/menu';
@@ -32,6 +32,8 @@ body{
 @import 'blocks/client';
 @import 'blocks/nepal';
 @import 'blocks/pageup';
+@import 'blocks/modal';
+
 
 @import 'blocks/media';
 

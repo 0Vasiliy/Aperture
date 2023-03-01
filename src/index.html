@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+    <!-- Header -->
 
     <section class="header">
         <div class="contaner">
@@ -32,6 +33,8 @@
           </div>
         </div>
     </section>
+
+    <!-- Foto islande -->
 
     <section class="promo">
         <div class="container">
@@ -72,6 +75,8 @@
         </div>
     </section>
 
+    <!-- Foto Block -->
+
     <section class="what" id="what_foto">
         <div class="container ">
            <div class="row">
@@ -87,13 +92,13 @@
                 <img src="./img/what/IMAGE_1.jpg" class="img-responsive foto_item_img" alt="image_1">
                 <h2 class="foto_item_heading">Product Photography</h2>
                 <div class="foto_item_text">Фотографии гаджетов - это что-то новое в вашей коллекции</div>
-                <button type="button" class="col btn btn-outline-secondary foto_item_btn">Подробнее</button>
+                <button type="button" class="col btn btn-outline-secondary foto_item_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Подробнее</button>
             </div>
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-8 gy-5 g-2  foto_item item_2">
                 <img src="./img/what/IMAGE_2.jpg" class="img-responsive foto_item_img" alt="image_2">
                 <h2 class="foto_item_heading">Architecture Photography</h2>
                 <div class="foto_item_text">Фотографии архитектуры - классический и нестандартный ракурс</div>
-                <button type="button" class="col btn btn-outline-secondary foto_item_btn">Подробнее</button>
+                <button type="button" class="col btn btn-outline-secondary foto_item_btn" data-bs-toggle="modal" data-bs-target="#exampleModal_2">Подробнее</button>
             </div>
             </div>
             <div class="row ">
@@ -101,18 +106,20 @@
                     <img src="./img/what/IMAGE_3.jpg" class="img-responsive foto_item_img" alt="image_3">
                     <h2 class="foto_item_heading">Drone Photography</h2>
                     <div class="foto_item_text">Фотографии с квадрокоптера - это всегда не обчныно и с полным обзором.</div>
-                    <button type="button" class="col btn btn-outline-secondary foto_item_btn">Подробнее</button>
+                    <button type="button" class="col btn btn-outline-secondary foto_item_btn" data-bs-toggle="modal" data-bs-target="#exampleModal_3">Подробнее</button>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-8 g-2 foto_item item_4">
                     <img src="./img/what/IMAGE_4.jpg" class="img-responsive foto_item_img" alt="image_4">
                     <h2 class="foto_item_heading">Wildlife Photography</h2>
                     <div class="foto_item_text">Фотографии природы - это классические, красочные и яркие воспоминания</div>
-                    <button type="button" class="col btn btn-outline-secondary foto_item_btn">Подробнее</button>
+                    <button type="button" class="col btn btn-outline-secondary foto_item_btn" data-bs-toggle="modal" data-bs-target="#exampleModal_4">Подробнее</button>
                 </div>
                 
             </div>  
         </div>
     </section>
+
+    <!-- Foto Japan-->
 
     <section class="frame">
         <div class="container">
@@ -149,6 +156,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Main aparature -->
 
     <setion class="tools" id="aparature">
         <div class="container">
@@ -189,6 +198,8 @@
         </div>
     </setion>
 
+    <!-- Foto Costa Rica -->
+
     <section class="costa">
         <div class="container">
             <div class="row">
@@ -225,6 +236,8 @@
         </div>
     </section>
 
+    <!-- Client -->
+
     <section class="client" id="main_client">
         <div class="row">
             <div class="container">
@@ -241,6 +254,8 @@
             </div>
         </div>
     </section>
+
+     <!-- Foto Nepal -->
 
     <section class="nepal">
         <div class="container">
@@ -286,7 +301,194 @@
     </div>
    </div>
 
+    <div class="container-fluid">
+        <div class="row">
+              <!-- Modal_slider -->
+            <!-- modal product -->
+            <div class="col modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Наш фотообзор</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/slider/product_1.jpg" class=" img-responsive d-block w-100" alt="product_1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/product_2.jpg" class="img-responsive d-block w-100" alt="product_2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/product_3.jpg" class=" img-responsive d-block w-100" alt="product_3">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Сохранить</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- modal architecture -->
+
+            <div class="col modal fade"  id="exampleModal_2" tabindex="-1" aria-labelledby="exampleModalLabel_2" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Наш фотообзор</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleIndicators_2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators_2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators_2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators_2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/slider/architecture_1.jpg" class="d-block w-100" alt="architecture_1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/architecture_2.jpg" class="d-block w-100" alt="architecture_2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/architecture_3.jpg" class="d-block w-100" alt="architecture_3">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators_2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators_2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Сохранить</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- modal drone -->
+
+            <div class="col modal fade"  id="exampleModal_3" tabindex="-1" aria-labelledby="exampleModalLabel_3" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Наш фотообзор</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleIndicators_3" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators_3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators_3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators_3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/slider/drone_1.jpg" class="d-block w-100" alt="drone_1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/drone_2.jpg" class="d-block w-100" alt="drone_2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/drone_3.jpg" class="d-block w-100" alt="drone_3">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators_3" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators_3" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Сохранить</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- modal wildlife -->
+
+            <div class="col modal fade"  id="exampleModal_4" tabindex="-1" aria-labelledby="exampleModalLabel_4" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Наш фотообзор</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleIndicators_4" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators_4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators_4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators_4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/slider/wildlife_1.jpg" class="d-block w-100" alt="drone_1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/wildlife_2.jpg" class="d-block w-100" alt="drone_2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/wildlife_3.jpg" class="d-block w-100" alt="drone_3">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators_4" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators_4" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Сохранить</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
