@@ -166,7 +166,7 @@
                     <div class="col-xl-10 col-lg-9 col-md-8 col-sm-5 col-8 tools_wrapper_block">
                         <div class="col tools_wrapper_block_title">Наша аппаратура</div>
                         <div class="col tools_wrapper_block_text">Говорят, что "нигде не бывает скучно, если вы хорошо выспались ночью и у вас в кармане полно неэкспонированной пленки". Хотя в наши дни мы не снимаем (много) фильмов — это инструменты, которые мы на самом деле используем каждый день, чтобы запечатлеть удивительные вещи вокруг нас.</div>                       
-                        <button type="button" class="col btn btn-outline-secondary tools_wrapper_block_btn">Подробнее</button>
+                        <button type="button" class="col btn btn-outline-secondary tools_wrapper_block_btn" data-bs-toggle="modal" data-bs-target="#exampleModal_5">Подробнее</button>
                     </div>
                 </div>
                 <div class="col tools_foto">
@@ -301,10 +301,10 @@
     </div>
    </div>
 
+    <!-- Modal_slider -->
+    <!-- modal product -->
     <div class="container-fluid">
         <div class="row">
-              <!-- Modal_slider -->
-            <!-- modal product -->
             <div class="col modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
@@ -482,12 +482,56 @@
                 </div>
                 </div>
             </div>
+
+             <!-- modal aparature -->
+
+             <div class="col modal fade"  id="exampleModal_5" tabindex="-1" aria-labelledby="exampleModalLabel_5" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Наша аппаратура</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleIndicators_5" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators_5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators_5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators_5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/slider/aparature_1.jpg" class="d-block w-100" alt="aparature_1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/aparature_2.jpg" class="d-block w-100" alt="aparature_2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/slider/aparature_3.jpg" class="d-block w-100" alt="aparature_3">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators_5" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators_5" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Сохранить</button>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
     </div>
 
  
-    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script> 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
