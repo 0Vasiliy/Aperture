@@ -81,6 +81,10 @@
         width: 80%;
         margin-top: -65%; 
     }
+    .foto_item_save{
+        width: 80%;
+        margin-top: -65%;
+    }
     .frame_block_subtitle{
         margin-left: auto;
         margin-top: 3%;
@@ -106,6 +110,9 @@
         margin-right: auto;
     }
     .foto_item_btn{
+        margin-top: -60%; 
+    }
+    .foto_item_save{
         margin-top: -60%; 
     }
     .frame_panel{
@@ -166,6 +173,11 @@
         margin-top: 5%;
     }
     .foto_item_btn{
+        max-width: 80px;
+        height: 28px;
+        font-size: 8px;
+    }
+    .foto_item_save{
         max-width: 80px;
         height: 28px;
         font-size: 8px;
