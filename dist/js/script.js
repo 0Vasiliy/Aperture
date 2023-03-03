@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded',function(){
 
 // Up button
@@ -19,4 +20,12 @@ window.scrollBy({
 })
 })
 
+// Save
+
+
+let btn_ap = document.querySelector('.btn_aparature');
+
+
+
 })
+
