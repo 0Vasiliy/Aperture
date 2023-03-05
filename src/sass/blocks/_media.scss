@@ -77,6 +77,11 @@
     .tools_foto_panel{
        margin-left: 3%;
     }
+    .tools_wrapper_block_btn{
+        max-width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
     .foto_item_btn{
         width: 80%;
         margin-top: -65%; 
@@ -102,6 +107,51 @@
 }
 
 @media (max-width: 768px){
+    // hamburger
+    .hamburger {  
+        display: block;		
+    }
+    .menu_list {
+        position: fixed;
+        display: none;
+        background-color: #181818;
+        opacity: 0.5;    
+        border-style: solid;
+        border-width: 3px;
+        border-image-source: linear-gradient(189.0deg, #FFFFFF 20%, #09213d 40%, #111f2d 61%, #23599c 79%);
+        border-image-slice: 1;
+        height: 100vh;
+        transition: 0.5s;
+        list-style: none;
+        box-shadow: 0 10px 27px rgba(0,0,0,0.5);   
+        top: 30px;
+        margin-right: 30px;
+        right: 0;
+        z-index: 10;
+        text-decoration: none;
+        a{
+            font-size: 34px;
+            max-width: 155px;
+            height: 50px;
+            background:  #181818;
+            border-radius: 6px;
+            transition: 0.5s linear; 
+            color: white;
+            padding: 2px 7px 4px 7px;        
+        }
+       
+        li{
+            margin-left:auto;
+            margin-right:auto;
+            margin-top: 30px;
+            padding: 15px;
+        }
+        &_active{           
+            display: block;
+            right: 0;
+        }
+    }
+
     .header_logo{
         margin-left: 4%;
     }
@@ -134,6 +184,11 @@
         font-size: 8px;
         line-height: 10px;
         margin-top: 5%;
+    }
+    .tools_wrapper_block_btn{
+        max-width: 100px;
+        height: 28px;
+        font-size: 12px;
     }
     .costa_block_title{
         font-size: 12px;
@@ -185,6 +240,11 @@
     .tools_foto_img{
         height: 100%;
         width: 100%;
+    }
+    .tools_wrapper_block_btn{
+        max-width: 90px;
+        height: 24px;
+        font-size: 10px;
     }
     .client_block_logo{
         img{
