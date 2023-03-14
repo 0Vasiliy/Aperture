@@ -21,8 +21,8 @@
                 <div class="col menu">
                     <nav>
                         <ul class="menu_list" id="menlist">
-                            <li class="menu_item"><a href="#">Главная</a></li>
                             <li class="menu_item"><a href="#what_foto">Фотографии</a></li>
+                            <li class="menu_item"><a href="#video">Видеообзор</a></li>
                             <li class="menu_item"><a href="#main_client">Клиенты</a></li>
                             <li class="menu_item"><a href="#aparature">Аппаратура</a></li>
                             <li class="menu_item"><a href="#">Контакты</a></li>
@@ -313,13 +313,13 @@
         </div>
     </section>
 
-    <section class="videografy">
+    <section class="videografy" id="video">
         <div class="row">
             <div class="container">
                 <div class="col videografy_block">
                     <h1 class="col videografy_block_title">Нужна помощь с фотографией или видеосъемкой?</h1>
                     <h5 class="col videografy_block_subtitle">Мы здесь ради вас!</h5>
-                    <button type="button" class="col btn btn-outline-secondary videografy_block_btn">Подробнее</button>
+                    <button type="button" class="col btn btn-outline-secondary videografy_block_btn" data-bs-toggle="modal" data-bs-target="#modal_video">Подробнее</button>
                 </div>
             </div>
         </div>
@@ -550,6 +550,27 @@
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-secondary btn_close_slider" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal_video -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col modal fade" id="modal_video" tabindex="-1" aria-labelledby="exampleModalLabel_6" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Наш видеообзор</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class='embed-container'>
+                            <iframe src='https://www.youtube.com/embed/2sr9MGkkeks' frameborder='0' allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
                 </div>
