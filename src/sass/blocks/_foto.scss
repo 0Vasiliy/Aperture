@@ -121,4 +121,8 @@
 .item_4{
     margin-right: 6%;
 }
-
+@media(max-width: 480px){
+    .foto_descr{
+        max-height: none;
+    }
+}

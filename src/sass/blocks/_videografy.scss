@@ -1,6 +1,6 @@
 .videografy{
     max-width: 1440px;
-    height: 450px;
+    max-height: 450px;
     background: #000000;
     border-radius: 0px;
     &_block{
@@ -46,10 +46,11 @@
     }
     
 }
-.embed-container { 
+.embed-container{ 
     position: relative; 
     padding-bottom: 56.25%; 
-    max-height: 550px;
+    max-width: 700px;
+    max-height: 400px;
     height: 100%;
     overflow: hidden;
     width: 700px;
@@ -57,10 +58,18 @@
 .embed-container iframe, 
 .embed-container object, 
 .embed-container embed { 
+    max-width: 700px;
     position: absolute; 
     top: 0;
     left: 0;
-    width: 100%; 
+    width: 95%; 
     height: 100%;
-    max-height: 550px;
+    max-height: 400px;
+}
+.modal-content-video{
+    max-width: 700px;
+    
+}
+.modal-dialog-video{
+    max-width: 700px;  
 }
